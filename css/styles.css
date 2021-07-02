@@ -1,9 +1,7 @@
 body {
     background-image: url("/images/kboard-edited.png");
     background-size: 100%;
-  background-color: black;
-    
-}
+  }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -22,6 +20,20 @@ font-weight: bolder;
  color: white;
 }
 
+p {color: white;}
+
 .icons {color: white;
 text-align: center;
+}
+
+.body {
+display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        padding: 10px 40px;
+        
+        background: black;
+        opacity: 80%;
+        color: white;
 }
