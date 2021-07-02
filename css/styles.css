@@ -7,16 +7,16 @@ body {
     background-size: cover;
   }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+h2 {font-family: 'Montserrat', sans-serif;
     
+    
+    font-weight: 400;
     color: white;
     
 }
 
 h1 {font-family: 'Montserrat', sans-serif;
-font-weight: 400;
+font-weight: 500;
 
  color: white;}
 
