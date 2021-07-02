@@ -45,11 +45,9 @@ border: 1px solid white;
 .body {
 margin-top: 40px;
         display: block;
-        
         text-align: center;
         width: 100%;
         padding: 10px 40px;
-        
         background: black;
         opacity: 80%;
         color: white;
