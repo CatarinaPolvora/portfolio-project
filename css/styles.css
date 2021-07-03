@@ -30,7 +30,17 @@ font-size: 40px;
  color: white;
 }
 
-p {color: white;}
+
+p {color: white;
+font-family: var(--default-font);
+font-size: 30px;}
+
+img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  opacity: 100%;
+}
 
 .btn-primary {color: white;
 text-align: center;
@@ -44,6 +54,7 @@ border: 1px solid white;
 
 .body {
 margin-top: 40px;
+margin-bottom: 40px;
         display: block;
         text-align: center;
         width: 100%;
@@ -52,3 +63,44 @@ margin-top: 40px;
         opacity: 80%;
         color: white;
 }
+
+.primary-link {
+  color: white;
+text-align: center;
+background-color: black;
+border: 1px solid white
+}
+
+.primary-link:hover {
+  background-color: #d801ff;
+}
+
+@media (max-width: 576px) {
+ 
+
+  h1 {
+      text-align: center;
+      font-size:48px ;
+  }
+    h2{display: block;
+        margin: auto;
+        line-height: 1.5;
+        
+     font-size: 32px;
+     text-align: center;
+ } 
+ h3 { text-align: center;}
+    p {
+     text-align: center;
+ }
+
+ .col-6 {
+   text-align: center;
+    flex: 0 0 auto;
+    width: 100%;
+}
+ .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+} }
