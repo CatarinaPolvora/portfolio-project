@@ -96,12 +96,15 @@ border: 1px solid white
  }
 
  .col-6 {
+   padding: 0;
    text-align: center;
     flex: 0 0 auto;
     width: 100%;
 }
- .primary-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-} }
+.primary-link {
+  display: flex;
+  padding: 10px 20px;
+  text-align: center;
+   
+   
+}}
