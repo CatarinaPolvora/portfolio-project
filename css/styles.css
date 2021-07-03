@@ -76,7 +76,7 @@ border: 1px solid white
   background-color: #d801ff;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 900px) {
  
 
   h1 {
@@ -102,10 +102,4 @@ border: 1px solid white
     flex: 0 0 auto;
     width: 100%;
 }
-.primary-link {
-  display: flex;
-  padding: 10px 20px;
-  text-align: center;
-   
-   
-}}
+}
