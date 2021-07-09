@@ -53,9 +53,9 @@ border: 1px solid white;
   background-color: #d801ff;
 }
 
-.body {
-margin-top: 40px;
-margin-bottom: 40px;
+.primary-style {
+margin-top: 200px;
+margin-bottom: 150px;
         display: block;
         text-align: center;
         width: 100%;
@@ -64,6 +64,7 @@ margin-bottom: 40px;
         opacity: 80%;
         color: white;
 }
+
 
 .primary-link {
   color: white;
