@@ -78,6 +78,15 @@ border: 1px solid white
   background-color: #d801ff;
 }
 
+.navbar-brand {
+  font-family: var(--heading-font);
+}
+.nav-item{
+font-family: var(--default-font);
+font-size: 15px;
+padding: 0 20px;
+}
+
 @media (max-width: 900px) {
  
 
