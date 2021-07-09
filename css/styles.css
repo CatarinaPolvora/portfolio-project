@@ -55,7 +55,7 @@ border: 1px solid white;
 }
 
 .primary-style {
-margin-top: 200px;
+margin-top: 150px;
 margin-bottom: 150px;
         display: block;
         text-align: center;
@@ -71,7 +71,8 @@ margin-bottom: 150px;
   color: white;
 text-align: center;
 background-color: black;
-border: 1px solid white
+border: 1px solid white;
+transition: all 100ms ease-in-out;
 }
 
 .primary-link:hover {
@@ -86,7 +87,26 @@ font-family: var(--default-font);
 font-size: 15px;
 padding: 0 20px;
 }
+.e-mail {
+  font-family: var(--default-font);
+  color: white;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+.social-links {
+  color: white;
+  text-decoration: none;
+  padding: 20px !important;
+  transition: all 100ms ease-in-out;
+}
+.e-mail:hover {
+color: #d801ff;
+}
 
+.social-links:hover {
+  color: #d801ff;
+
+}
 @media (max-width: 900px) {
  
 
