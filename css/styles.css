@@ -44,6 +44,10 @@ img {
   
 }
 
+small{
+  font-family: var(--default-font);
+}
+
 .btn-primary {color: white;
 text-align: center;
 background-color: black;
@@ -93,6 +97,14 @@ padding: 0 20px;
   text-decoration: none;
   transition: all 100ms ease-in-out;
 }
+
+.github
+{ font-family: var(--default-font);
+  color: white;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
 .social-links {
   color: white;
   text-decoration: none;
@@ -103,6 +115,9 @@ padding: 0 20px;
 color: #d801ff;
 }
 
+.github:hover {
+  color: #d801ff;
+}
 .social-links:hover {
   color: #d801ff;
 
